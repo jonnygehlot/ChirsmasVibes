@@ -1,0 +1,98 @@
+.bgclass{
+    background-image: url(BlackBackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1920px 1080px;
+    position: absolute;
+    z-index: -5;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+.Box{
+    display: flex;
+    justify-content: left;
+    position: relative;
+    z-index: 2;
+}
+.bgimage{
+    display: inline-block;
+    z-index: 1;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    /* position: absolute; */
+    top: 100px;
+    left: 100px;
+}
+.headStar{
+    display: inline-block;
+    margin:-21px 189px;
+    z-index: 0;
+    width: 40px;
+    border-radius: 100%;
+    position: relative;
+    z-index: 3;
+}
+.Decore{
+    display: inline-block;
+    margin:-510px -460px;
+    z-index: 0;
+    width: 500px;
+    position: relative;
+    z-index: 4;
+}
+.Decore1{
+    display: inline-block;
+    margin:-534px 101px;
+    z-index: 0;
+    width: 250px;
+    position: relative;
+    z-index: 3;
+}
+.head{
+    width: 0;
+    height: 0;
+    border-left: 129px solid transparent;
+    border-right: 129px solid transparent;
+    border-bottom: 186px solid #529f3d;
+    display: block;
+    margin: auto;
+    top: 0px;
+    left: 0px;
+    box-shadow: 10px 10px 15px rgb(74, 109, 64);
+    clip-path: inset(0px 0px -3px 0px); 
+}
+.body1{
+    border-bottom: 186px solid #529f3d;
+	border-left: 99px solid transparent;
+	border-right: 99px solid transparent;
+	height: 0px;
+	width: 196px;
+    display: block;
+    margin: auto;
+    position: relative;
+    box-shadow: 10px 10px 15px rgb(74, 109, 64);
+    clip-path: inset(0px 0px -3px 0px);
+}
+.body2{
+    border-bottom: 136px solid #529f3d;
+	border-left: 66px solid transparent;
+	border-right: 66px solid transparent;
+	height: 0px;
+	width: 282px;
+    display: block;
+    margin: auto;
+    box-shadow: 10px 10px 15px rgb(74, 109, 64);
+    clip-path: inset(0px 0px -3px 0px);
+}
+.wood{
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-bottom: 177px solid #394b28ed;
+    display: block;
+    margin: auto;
+    height: 0;
+    width: 57px;   
+}
